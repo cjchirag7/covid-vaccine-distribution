@@ -1,0 +1,34 @@
+# Source code
+.git*
+.dockerignore
+Dockerfile*
+docker-compose*
+STARTING.nd
+
+# Dependency directory
+node_modules
+npm-debug.log*
+npm-error.log*
+yarn-debug.log*
+yarn-error.log*
+.yarnrc
+.yarn/*
+
+# Logs
+logs
+*.log
+
+# TypeScript
+./dist
+
+# VS Code
+.vscode
+
+# ENV
+*.env
+
+# Kubernetes
+configmap.yaml
+
+# eslint
+.eslintcache
